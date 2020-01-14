@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kempaka.desa_cikalongsari">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pkk"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name="com.kempaka.desa_cikalongsari.footer.zzzzz"></activity>
+        <activity android:name="com.kempaka.desa_cikalongsari.footer.CopyReg" />
+        <activity android:name="com.kempaka.desa_cikalongsari.footer.Dasar_Hukum" />
+        <activity
+            android:name="com.kempaka.desa_cikalongsari.Splash_screen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kempaka.desa_cikalongsari.menu_utama.kesekertariatan" />
+        <activity android:name="com.kempaka.desa_cikalongsari.menu_utama.pokja_i" />
+        <activity android:name="com.kempaka.desa_cikalongsari.menu_utama.pokja_ii" />
+        <activity android:name="com.kempaka.desa_cikalongsari.menu_utama.pokja_iii" />
+        <activity android:name="com.kempaka.desa_cikalongsari.menu_utama.pokja_iv" />
+        <activity android:name="com.kempaka.desa_cikalongsari.menu_utama.profil" />
+        <activity android:name="com.kempaka.desa_cikalongsari.navig.nav1" />
+        <activity android:name="com.kempaka.desa_cikalongsari.navig.nav2" />
+        <activity android:name="com.kempaka.desa_cikalongsari.navig.nav3" />
+        <activity android:name="com.kempaka.desa_cikalongsari.navig.nav4" />
+        <activity android:name="com.kempaka.desa_cikalongsari.activity_splash_screen" />
+        <activity android:name="com.kempaka.desa_cikalongsari.MainScreen" />
+        <activity android:name="com.kempaka.desa_cikalongsari.MainActivity" />
+    </application>
+
+</manifest>

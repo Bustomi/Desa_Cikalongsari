@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0093DD</color>
+    <color name="colorPrimaryDark">	#000080</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="screen1">#F44336</color>
+    <color name="screen2">#64DD17</color>
+    <color name="screen3">#9C27B0</color>
+    <color name="bk">#A3F2F8</color>
+
+
+    <array name="dot_on_page_active">
+        <item>#B71C1C</item>
+        <item>#8BC34A</item>
+        <item>#4A148C</item>
+
+    </array>
+
+    <array name="dot_on_page_not_active">
+        <item>#FF5252</item>
+        <item>#CCFF90</item>
+        <item>#E040FB</item>
+    </array>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="colorBlue">#008B8B</color>
+</resources>
